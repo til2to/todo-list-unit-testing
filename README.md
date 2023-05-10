@@ -69,10 +69,10 @@ To get a local copy up and running, follow these steps.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dennis-owusu-835888206/
 )
 
-👤 **Tom Daniel**
+👤 **Racha OULDBABAALI**
 
-- GitHub: [@githubhandle](https://github.com/tomdan-ai)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tom-udoh-a89046256/)
+- GitHub: [@githubhandle](https://github.com/rachaouldbabaali)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/racha-ouldbabaali-25122877/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
