@@ -1,5 +1,5 @@
 TN:
-SF:src/modules/addTodo.js
+SF:src\modules\addTodo.js
 FN:2,(anonymous_0)
 FN:10,(anonymous_1)
 FN:17,(anonymous_2)
@@ -28,7 +28,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/modules/removeTodo.js
+SF:src\modules\removeTodo.js
 FN:2,(anonymous_0)
 FN:4,(anonymous_1)
 FN:7,(anonymous_2)
