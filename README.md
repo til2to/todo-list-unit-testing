@@ -35,6 +35,7 @@
 - **[Plain_JS_with_functions]**
 - **[Plain_JS_with_webpack_bundlers]**
 - **[Create_remove_and_clear_tasks]**
+- **[update_and_clear_all_completed_tasks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,10 +70,9 @@ To get a local copy up and running, follow these steps.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dennis-owusu-835888206/
 )
 
-👤 **Tom Daniel**
+👤 **Racha Ouldbabaali**
 
-- GitHub: [@githubhandle](https://github.com/tomdan-ai)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tom-udoh-a89046256/)
+- GitHub: [@githubhandle](https://github.com/rachaouldbabaali)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
