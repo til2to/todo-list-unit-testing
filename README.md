@@ -35,6 +35,7 @@
 - **[Plain_JS_with_functions]**
 - **[Plain_JS_with_webpack_bundlers]**
 - **[Create_remove_and_clear_tasks]**
+- **[update_and_clear_all_completed_tasks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
