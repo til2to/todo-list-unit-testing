@@ -67,8 +67,7 @@ To get a local copy up and running, follow these steps.
 👤 **Owusu Dennis**
 
 - GitHub: [@githubhandle](https://github.com/til2to)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dennis-owusu-835888206/
-)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dennis-owusu-835888206/)
 
 👤 **Racha OULDBABAALI**
 
