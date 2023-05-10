@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683711647145" clover="3.2.0">
-  <project timestamp="1683711647145" name="All files">
+<coverage generated="1681349152808" clover="3.2.0">
+  <project timestamp="1681349152808" name="All files">
     <metrics statements="20" coveredstatements="19" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="6" elements="28" coveredelements="26" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
-    <file name="addTodo.js" path="E:\microverse\Module 2\week3\todo-list-unit-testing\src\modules\addTodo.js">
+    <file name="addTodo.js" path="/Volumes/Nana/I_T/Micro/todo-list/src/modules/addTodo.js">
       <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -17,16 +17,16 @@
       <line num="17" count="2" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
     </file>
-    <file name="removeTodo.js" path="E:\microverse\Module 2\week3\todo-list-unit-testing\src\modules\removeTodo.js">
+    <file name="removeTodo.js" path="/Volumes/Nana/I_T/Micro/todo-list/src/modules/removeTodo.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="4" count="6" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="8" count="4" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

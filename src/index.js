@@ -5,6 +5,7 @@ import { displayAllTasks, taskDescriptionView } from './modules/drawTask.js';
 import {
   updateTask,
   completeTask,
+  clearCompleted,
 } from './modules/updateTask.js';
 
 const getTasks = JSON.parse(window.localStorage.getItem('tasks')) || [];
@@ -111,6 +112,7 @@ todoContainer.addEventListener("click", (event) => {
   });
 });
 
+
 todoContainer.addEventListener("change", (event) => {
   const li = event.target.closest("li");
   if (li) {
@@ -136,8 +138,8 @@ todoContainer.addEventListener("change", (event) => {
   }
 });
 
-// Update task description
-todoContainer.addEventListener("input", (event) => {
+// wrap the event handler in a function
+export const handleInputEvent = (event) => {
   const li = event.target.closest("li");
   if (li) {
     const index = li.id;
@@ -146,20 +148,13 @@ todoContainer.addEventListener("input", (event) => {
     const updateValue = taskListItem.textContent.trim();
     updateTask(intIndex, updateValue);
   }
-});
+}
+
+// And then add it as the event listener in the main code like this:
+todoContainer.addEventListener("input", handleInputEvent);
 
 // clear all completed tasks
-const clearCompleted = () => {
-  let getTasks = JSON.parse(window.localStorage.getItem("tasks")) || [];
-  getTasks = getTasks.filter((task) => !task.completed);
-  let counter = 1;
-  getTasks.forEach((task) => {
-    task.index = counter;
-    counter++;
-  });
-  window.localStorage.setItem("tasks", JSON.stringify(getTasks));
-  displayAllTasks(getTasks, todoContainer);
-};
+clearCompleted(getTasks)
 
 clearTask.addEventListener("click", () => {
   clearCompleted();
