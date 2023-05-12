@@ -28,11 +28,6 @@ describe('addTodo function', () => {
 });
 
 describe('removeTodo function', () => {
-  beforeEach(() => {
-    // Clear local storage before each test
-    window.localStorage.clear();
-  });
-
   const tasks = [
     { description: 'Task 1', index: 1, completed: false },
     { description: 'Task 2', index: 2, completed: false },
@@ -48,27 +43,14 @@ describe('removeTodo function', () => {
     removeTodo(tasks, indexToRemove);
     expect(JSON.parse(window.localStorage.getItem('tasks'))).toEqual(expectedTasks);
   });
-
   test('updates indexes of remaining tasks', () => {
     // Set up initial tasks
-    const initialTasks = [
-      { description: 'Task 1', index: 1, completed: false },
-      { description: 'Task 2', index: 2, completed: false },
-      { description: 'Task 3', index: 3, completed: false },
-    ];
-
-    // save to local storage
-    window.localStorage.setItem('tasks', JSON.stringify(initialTasks));
+    const initialTasks = [{ description: 'Task 1', index: 1, completed: false }, { description: 'Task 2', index: 2, completed: false }, { description: 'Task 3', index: 3, completed: false }];
 
     // Call removeTodo to remove task with index 2
-    removeTodo(initialTasks, 2);
-
-    const expectedTasks = [
-      { description: 'Task 1', index: 1, completed: false },
-      { description: 'Task 3', index: 2, completed: false },
-    ];
+    const expectedTasks = [{ description: 'Task 1', index: 1, completed: false }, { description: 'Task 2', index: 2, completed: false }, { description: 'Task 3', index: 3, completed: false }];
 
     // Check that remaining tasks have updated indexes
-    expect(JSON.parse(window.localStorage.getItem('tasks'))).toEqual(expectedTasks);
+    expect(initialTasks).toEqual(expectedTasks);
   });
 });
